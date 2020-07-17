@@ -6,11 +6,11 @@ var engine,world,object;
 function setup()
  {
     createCanvas(400,400);
-    engine=Engine.create();
+   /* engine=Engine.create();
     world=engine.world;
 
     object=Bodies.rectangle(200,100,50,50);
-    World.add(world.object);
+    World.add(world.object);*/
 }
 function draw() {
   background(0);  
